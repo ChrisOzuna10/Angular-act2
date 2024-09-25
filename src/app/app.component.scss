@@ -1,0 +1,35 @@
+.home {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .encima-home {
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    width: 600px;
+    height: auto;
+  }
+  
+  .content-container {
+    position: relative;
+  }
+  
+  .texto-sobre-imagen {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    max-width: 400px;
+    text-align: right;
+  }
+  .imagen-arriba-texto {
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+  }
+  
